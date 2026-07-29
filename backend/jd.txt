@@ -1,0 +1,22 @@
+Product Engineer Intern
+
+Responsibilities:
+- Develop backend APIs using Python and FastAPI
+- Build AI/ML applications
+- Work with LLMs and Generative AI
+- Design REST APIs
+- Work with Git and GitHub
+- Collaborate with frontend developers
+- Deploy applications on cloud platforms
+
+Required Skills:
+- Python
+- FastAPI
+- Machine Learning
+- SQL
+- Git
+- REST API
+- Docker
+- Cloud Computing
+- Problem Solving
+- Communication Skills
