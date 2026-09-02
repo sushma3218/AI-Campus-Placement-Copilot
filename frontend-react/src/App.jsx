@@ -64,7 +64,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "https://pan-tradition-century-punch.trycloudflare.com/upload-resume",
+        `${import.meta.env.VITE_API_URL || "http://127.0.0.1:8000"}/upload-resume`,
         formData
       );
 

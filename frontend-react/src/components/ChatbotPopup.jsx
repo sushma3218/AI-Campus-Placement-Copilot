@@ -60,7 +60,7 @@ function ChatbotPopup() {
     setLoading(true);
 
     try {
-      const response = await axios.post("https://pan-tradition-century-punch.trycloudflare.com/resume-chat", {
+      const response = await axios.post(`${import.meta.env.VITE_API_URL || "http://127.0.0.1:8000"}/resume-chat`, {
         question: query,
       });
 
