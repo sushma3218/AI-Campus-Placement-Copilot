@@ -43,7 +43,7 @@ function ResumeOptimizer() {
     setCopied(false);
 
     try {
-      const response = await axios.post("http://127.0.0.1:8000/optimize-resume", {
+      const response = await axios.post("https://pan-tradition-century-punch.trycloudflare.com/optimize-resume", {
         option: key,
       });
       setResult(response.data);

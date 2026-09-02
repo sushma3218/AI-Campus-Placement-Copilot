@@ -40,7 +40,7 @@ function Dashboard({ result }) {
     setDownloading(true);
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/download-report",
+        "https://pan-tradition-century-punch.trycloudflare.com/download-report",
         {
           skills_found: skillsAnalysis.skills,
           missing_skills: skillsAnalysis.missing_skills,

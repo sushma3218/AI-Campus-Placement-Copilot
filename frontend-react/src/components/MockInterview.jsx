@@ -107,7 +107,7 @@ function MockInterview({ rawQuestions }) {
     setEvaluation(null);
 
     try {
-      const response = await axios.post("http://127.0.0.1:8000/evaluate-answer", {
+      const response = await axios.post("https://pan-tradition-century-punch.trycloudflare.com/evaluate-answer", {
         question: currentQuestion,
         user_answer: userAnswer,
       });
